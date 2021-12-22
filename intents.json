@@ -1,0 +1,127 @@
+{"intents":[
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "morning Wish",
+         "patterns": ["Good Morning"],
+         "responses": ["Hello, there Good Morning to you too"],
+         "context": [""]
+        },
+        {"tag": "afternoon wish",
+         "patterns": ["Good afternoon"],
+         "responses": ["Hello, there Good afternoon to you too"],
+         "context": [""]
+        },
+        {"tag": "evening Wish",
+         "patterns": ["Good evening"],
+         "responses": ["Hello, there Good evening to you too"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support you offered"],
+         "responses": ["I can helps you by giving replies of your basic queries",""],
+         "context": [""]
+        },
+        {
+         "tag": "Chatbot_intro",
+         "patterns": ["What is chatbot"],
+         "responses": ["A chatbot is a computer program that simulates human conversation through voice commands or text chats or both."],
+         "context": [""]
+        },
+        {
+         "tag": "NLP",
+         "patterns": ["What is NLP"],
+         "responses": [" Natural language is the language humans use to communicate with one another. On the other hand, programming language was developed so humans can tell machines what to do in a way machines can understand."],
+         "context": [""]
+        },
+       {
+         "tag": "Emotion",
+         "patterns": ["Make my day","Tell me a joke"],
+         "responses": ["Why do we tell actors to break a leg? Because every play has a cast","Hear about the new restaurant called Karma? There is no menu: You get what you deserve.","Neural Network have no Brain"],
+         "context": [""]
+        },
+       {
+         "tag": "Ask",
+         "patterns": ["What is life", "Tell me about your creator"],
+         "responses": ["Studying in Bit Mesra","Study Mca @Bit Mesra "],
+         "context": [""]
+        },
+       {
+         "tag": "Coin Toss",
+         "patterns": ["Toss a coin","Flip a Coin"],
+         "responses": ["It landed on Heads" ,"It landed on tails"],
+         "context": [""]
+        },
+        {
+         "tag": "Timing",
+         "patterns": ["What is the time to cook maggi"],
+         "responses": ["It takes 2 min, but if you are slow and u are lazy as a sloth you will take whole day.","Ready to eat in 2 min.!!!!!!!!!!!"],
+         "context": [""]
+        },
+       {
+         "tag": "Child",
+         "patterns": ["How many child you have ?"],
+         "responses": ["I am a bot created by Shekhar and Subhmoy"],
+         "context": [""]
+        },
+       {
+         "tag": "Father ",
+         "patterns": ["Who is your daddy","Who is your father"],
+         "responses": ["My Father is TensorFlow and Keras"],
+         "context": [""]
+        },
+       {
+         "tag": "BIT ",
+         "patterns": ["Do you know PSB","Do you know jaya pal","Do you know amrita priyam","Do you know onima tigga","Do you know nks","Do you know Deepak mishra","Do you know Nageshwar pasad tiwari"],
+         "responses": ["Best teacher of BIT Lalpur"],
+         "context": [""]
+        },
+       {
+         "tag": "Love ",
+         "patterns": ["I love you","I like you","I Adore you","I fuck you","Do you love me?","Do you like me.?","I hate you?"],
+         "responses": [" I Don't have Emotion beacuse i am just a chatbot","How can i do anything wrong to you if i am just a robo"],
+         "context": [""]
+        },
+        {
+         "tag": "Translate",
+         "patterns": ["Can you translate English to hindi","Can you translate English to bengali","Can you translate any Sentence .?"],
+         "responses": ["Huh! you have to trained me more for that","Duh"],
+         "context": [""]
+        },
+       {
+         "tag": "Origin",
+         "patterns": ["What is your origin"],
+         "responses": ["I am  a chatbot originated by Shekhar and Subhomoy"],
+         "context": [""]
+        },
+         {
+         "tag": "Old",
+         "patterns": ["How old are you?","What is your age"],
+         "responses": ["I am just Two Days old"],
+         "context": [""]
+        },
+        {
+         "tag": "Intrest",
+         "patterns": ["What is your intrest","What is your work","How you work"],
+         "responses": ["I am just help peoples By giving there reply"],
+         "context": [""]
+        }
+]
+}
