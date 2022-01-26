@@ -1,6 +1,7 @@
 # Chatbot-using-Python
-Step 
--1: Setup the Json File
+Step
+
+ -1: Setup the Json File
     You can add all the statements you want your chatbot to be like in the json file
 - 2: First run the train_chatbot.py file to train the neural network.
 - 3: Run the chatgui File to see the application in work. 
